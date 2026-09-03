@@ -1,7 +1,13 @@
 import streamlit as st
 import joblib
 import streamlit as st
+import streamlit as st
 
+st.set_page_config(
+    page_title="Spam Mail Detector",
+    page_icon="📧",
+    layout="centered"
+)
 # Custom CSS for button
 st.markdown("""
 <style>
