@@ -1,6 +1,25 @@
 import streamlit as st
 import joblib
+import streamlit as st
 
+# Custom CSS for button
+st.markdown("""
+<style>
+div.stButton > button:first-child {
+    background-color: #4CAF50;  /* Green */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 24px;
+}
+div.stButton > button:hover {
+    background-color: #45a049;  /* Darker green on hover */
+    color: white;
+}
+</style>
+""", unsafe_allow_html=True)
 # Load model and vectorizer
 model = joblib.load('spam_model.pkl')
 tfidf = joblib.load('tfidf_vectorizer.pkl')
