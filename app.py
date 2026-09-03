@@ -8,9 +8,6 @@ st.set_page_config(
     page_icon="📧",
     layout="centered"
 )
-st.image("https://cdn-icons-png.flaticon.com/512/542/542638.png", width=80)
-st.title("Spam Mail Detector")
-st.write("Classify SMS messages as SPAM or HAM using NLP + Logistic Regression")
 # Custom CSS for button
 st.markdown("""
 <style>
