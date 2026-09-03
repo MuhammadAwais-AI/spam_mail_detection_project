@@ -6,7 +6,7 @@ An end-to-end NLP project to classify SMS messages as **Spam** or **Ham** using 
 Spam messages are a major problem for mobile users. This project builds a machine learning model to automatically detect spam SMS messages. 
 The app takes any text input and predicts whether it's spam with a confidence score.
 
-**Live Demo**: [Add your Streamlit Cloud link here after deployment]
+**Live Demo**: https://spam-mail-detector-muhammadawais.streamlit.app/
 
 ## 📊 Dataset
 - **Source**: SMS Spam Collection Dataset from UCI
